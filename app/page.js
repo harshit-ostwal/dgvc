@@ -1,4 +1,4 @@
-import Intro from '@/components/Intro'
+import Intro from '@/components/Loader/Intro'
 import React from 'react'
 
 export default function page() {
