@@ -1,0 +1,61 @@
+import React from 'react';
+import NewsData from '../data/News'
+import Marquee from 'react-fast-marquee';
+import Link from 'next/link';
+
+export default function News() {
+
+  // Today's Date
+  const todayDate = new Date();
+
+  return (
+    <>
+
+      {/* Important News Details */}
+      <div className="w-full flex p-2 bg-gray-950 text-gray-300 font-Varela font-semibold items-center justify-around">
+
+        {/* Important News Label */}
+        <h1 className="bg-gray-900 text-red-400 rounded-lg p-3 text-xs sm:text-sm md:text-base animate-fade-in-left">Important News</h1>
+
+        {/* Important News Details */}
+        <div className="w-[60%] sm:w-[70%] md:w-[80%] lg:w-[85%] xl:w-[90%]">
+
+          {/* Marquee Animations */}
+          <Marquee loop={0} delay={0} speed={20}>
+
+            {/* Mapping Marquee Text */}
+            {NewsData.map((data) => {
+
+              // Convert data.date to a Date object
+              const newsDate = new Date(data.date);
+
+              // Checking Date & Displaying News Data
+              if (newsDate <= todayDate) {
+
+                return (
+
+                  // Returning The Data
+                  <Link href={data.href} key={data.id} className="flex gap-3 mr-40 lg:pr-[500px] animate-fade-in text-sm sm:text-base md:text-lg items-center">
+
+                    {/* Icon */}
+                    {data.icon}
+
+                    {/* News */}
+                    {data.news}
+
+                  </Link>
+
+                )
+              }
+
+            })}
+
+          </Marquee>
+
+        </div>
+
+      </div>
+
+    </>
+  )
+}

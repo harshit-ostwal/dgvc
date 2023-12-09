@@ -2,7 +2,7 @@
 import React from 'react';
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
-import IntroData from '../data/Loader/Intro';
+import IntroData from '../data/Intro';
 
 export default function Intro() {
 
