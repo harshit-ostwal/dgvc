@@ -9,7 +9,7 @@ const IntroData = [
             {
                 id: 1,
                 startIcon: <MoveLeft size={24} color="gold" />,
-                text: `" Step`
+                text: `"Step`
             },
             {
                 id: 2,
@@ -34,7 +34,7 @@ const IntroData = [
             {
                 id: 7,
                 endIcon: <MoveRight size={24} color="gold" />,
-                text: `Home. "`
+                text: `Home."`
             },
         ],
         color: "text-cyan-400",
@@ -46,7 +46,7 @@ const IntroData = [
             {
                 id: 1,
                 startIcon: <MoveLeft size={24} color="gold" />,
-                text: `" You're`
+                text: `"You're`
             },
             {
                 id: 2,
@@ -79,7 +79,7 @@ const IntroData = [
             {
                 id: 7,
                 endIcon: <MoveRight size={24} color="gold" />,
-                text: `Wisdom. "`
+                text: `Wisdom."`
             },
         ],
         color: "text-red-400",
@@ -91,7 +91,7 @@ const IntroData = [
             {
                 id: 1,
                 startIcon: <MoveLeft size={24} color="gold" />,
-                text: `" The`
+                text: `"The`
             },
             {
                 id: 2,
@@ -120,7 +120,7 @@ const IntroData = [
             {
                 id: 7,
                 endIcon: <MoveRight size={24} color="gold" />,
-                text: `Learn. "`
+                text: `Learn."`
             },
         ],
         color: "text-purple-400",
