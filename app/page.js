@@ -1,7 +1,13 @@
+import Intro from '@/components/Intro'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>page</div>
+    <>
+
+      {/* Importing The Intro Loader */}
+      <Intro />
+
+    </>
   )
 }
