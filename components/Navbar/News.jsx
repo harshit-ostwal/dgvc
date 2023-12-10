@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsData from '../data/News'
+import NewsData from '../data/Navbar/News'
 import Marquee from 'react-fast-marquee';
 import Link from 'next/link';
 
@@ -12,13 +12,13 @@ export default function News() {
     <>
 
       {/* Important News Details */}
-      <div className="w-full flex p-2 bg-gray-950 text-gray-300 font-Varela font-semibold items-center justify-around">
+      <div className="w-full flex p-3 bg-primaryDark animate-fade text-secondaryLight font-Varela font-semibold items-center justify-around">
 
         {/* Important News Label */}
-        <h1 className="bg-gray-900 text-red-400 rounded-lg p-3 text-xs sm:text-sm md:text-base animate-fade-in-left">Important News</h1>
+        <h1 className="bg-primaryLight text-red-400 rounded-lg p-3 text-xs sm:text-sm leading-none md:text-base animate-fade-in-left">Important News</h1>
 
         {/* Important News Details */}
-        <div className="w-[60%] sm:w-[70%] md:w-[80%] lg:w-[85%] xl:w-[90%]">
+        <div className="w-[60%] sm:w-[70%] md:w-[80%] lg:w-[85%] 2xl:w-[90%]">
 
           {/* Marquee Animations */}
           <Marquee loop={0} delay={0} speed={20}>
@@ -35,7 +35,7 @@ export default function News() {
                 return (
 
                   // Returning The Data
-                  <Link href={data.href} key={data.id} className="flex gap-3 mr-40 lg:pr-[500px] animate-fade-in text-sm sm:text-base md:text-lg items-center">
+                  <Link href={data.href} key={data.id} className="flex gap-3 duration-500 transition mr-40 lg:pr-[500px] animate-fade-in text-sm sm:text-base md:text-lg items-center">
 
                     {/* Icon */}
                     {data.icon}
