@@ -6,7 +6,7 @@ export default function Intro() {
     return (
 
         // Intro Animation Details
-        <div id="intro" className="h-[100%] w-full p-2 sm:p-5 text-sm sm:text-base md:text-xl lg:text-2xl font-semibold bg-black fixed top-0 z-[100] flex justify-center items-center">
+        <div id="intro" className="h-[100%] w-full p-2 sm:p-5 text-[10px] sm:text-base md:text-xl lg:text-2xl font-semibold bg-black fixed top-0 z-[100] flex justify-center items-center">
 
             {/* Mapping Div Details & Intro Details */}
             {IntroData.map((introData, indexData) => (

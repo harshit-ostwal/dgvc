@@ -9,7 +9,7 @@ export default function Navbar() {
         <>
 
             {/* Navbar Details */}
-            <div id='navbar' className="w-full h-full flex flex-col gap-2">
+            <div id='navbar' className="w-full h-full flex flex-col gap-2 overflow-hidden">
 
                 {/* Importing News */}
                 <News />
