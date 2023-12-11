@@ -10,9 +10,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryLight: 'var(--primaryLight)',
-        primaryDark: 'var(--primaryDark)',
-        secondaryLight: 'var(--secondaryLight)',
+        background: 'var(--background)',
+        backgroundForeground: 'var(--backgroundForeground)',
+        primary: 'var(--primary)',
+        primaryForeground: 'var(--primaryForeground)',
+        secondary: 'var(--secondary)',
+        secondaryForeground: 'var(--secondaryForeground)',
       },
       fontFamily: {
         Varela: ['var(--varela)'],

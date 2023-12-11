@@ -13,7 +13,7 @@ const varela = Varela_Round({ subsets: ["latin"], variable: "--varela", weight: 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`w-full h-full flex flex-col justify-between bg-secondaryLight ${varela.variable}`}>
+      <body className={`w-full h-full flex flex-col justify-between bg-background ${varela.variable}`}>
 
         {/* Importing Navbar */}
         <Navbar />

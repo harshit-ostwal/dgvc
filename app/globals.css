@@ -5,9 +5,12 @@
 
 :root {
 
-  --primaryLight: #F8F8F8;
-  --primaryDark: #222222;
-  --secondaryLight: #ececec;
+  --background: #fffcd3;
+  --backgroundForeground: #222222;
+  --primary: #eecfd4;
+  --primaryForeground: #222222;
+  --secondary: #222222;
+  --secondaryForeground: #eecfd4;
 }
 
 * {

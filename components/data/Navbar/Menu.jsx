@@ -16,19 +16,19 @@ const MenuData = [
                 subId: 1,
                 subTitle: "Hell3",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 2,
                 subTitle: "Hell2",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 3,
                 subTitle: "Hell1",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             }
         ]
     },
@@ -41,19 +41,19 @@ const MenuData = [
                 subId: 1,
                 subTitle: "Hell3",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 2,
                 subTitle: "Hell2",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 3,
                 subTitle: "Hell1",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             }
         ]
     },
@@ -66,13 +66,13 @@ const MenuData = [
                 subId: 1,
                 subTitle: "Hell123",
                 subHref: "/",
-                subIcon: <User2 size={24} color="lightgray" />
+                subIcon: <User2 size={24} />
             },
             {
                 subId: 2,
                 subTitle: "Aasd",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             }
         ]
     },
@@ -85,19 +85,19 @@ const MenuData = [
                 subId: 1,
                 subTitle: "Hell3",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 2,
                 subTitle: "Hell2",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             },
             {
                 subId: 3,
                 subTitle: "Hell1",
                 subHref: "/",
-                subIcon: <GraduationCap size={24} color="lightgray" />
+                subIcon: <GraduationCap size={24} />
             }
         ]
     },

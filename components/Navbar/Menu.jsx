@@ -14,7 +14,7 @@ import Link from 'next/link'
 export default function Menu() {
   return (
     <>
-      <div className="hidden justify-center items text-primaryDark h-14 gap-2 xl:flex">
+      <div className="hidden justify-center bg-gradient-to-r from-yellow-200 to-red-200 p-1 text-backgroundForeground h-full gap-2 lg:flex">
         {MenuData.map((data) => (
           <NavigationMenu key={data.id}>
             <NavigationMenuList>
@@ -30,7 +30,7 @@ export default function Menu() {
                           <Link
                             key={id}
                             href={subData.subHref}
-                            className="flex p-3 space-x-3 hover:bg-gray-800 rounded-lg"
+                            className="flex p-3 space-x-3 hover:bg-background rounded-lg"
                           >
                             {subData.subIcon}
                             <NavigationMenuLink>{subData.subTitle}</NavigationMenuLink>
@@ -40,7 +40,7 @@ export default function Menu() {
                     </NavigationMenuContent>
                   </>
                 ) : (
-                  <Link key={data.id} href={data.href} className="flex justify-center font-semibold text-base p-3 rounded-lg">
+                  <Link key={data.id} href={data.href} className="flex justify-center font-semibold text-base p-3">
                     {data.title}
                   </Link>
                 )}

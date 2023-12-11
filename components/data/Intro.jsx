@@ -8,7 +8,7 @@ const IntroData = [
         title: [
             {
                 id: 1,
-                startIcon: <MoveLeft size={24} color="gold" />,
+                startIcon: <MoveLeft size={24} color="gray" />,
                 text: `"Step`
             },
             {
@@ -33,11 +33,11 @@ const IntroData = [
             },
             {
                 id: 7,
-                endIcon: <MoveRight size={24} color="gold" />,
+                endIcon: <MoveRight size={24} color="gray" />,
                 text: `Home."`
             },
         ],
-        color: "text-cyan-400",
+        color: "text-gray-500",
     },
     {
         id: 2,
@@ -45,7 +45,7 @@ const IntroData = [
         title: [
             {
                 id: 1,
-                startIcon: <MoveLeft size={24} color="gold" />,
+                startIcon: <MoveLeft size={24} color="gray" />,
                 text: `"You're`
             },
             {
@@ -78,11 +78,11 @@ const IntroData = [
             },
             {
                 id: 7,
-                endIcon: <MoveRight size={24} color="gold" />,
+                endIcon: <MoveRight size={24} color="gray" />,
                 text: `Wisdom."`
             },
         ],
-        color: "text-red-400",
+        color: "text-red-500",
     },
     {
         id: 3,
@@ -90,7 +90,7 @@ const IntroData = [
         title: [
             {
                 id: 1,
-                startIcon: <MoveLeft size={24} color="gold" />,
+                startIcon: <MoveLeft size={24} color="gray" />,
                 text: `"The`
             },
             {
@@ -119,11 +119,11 @@ const IntroData = [
             },
             {
                 id: 7,
-                endIcon: <MoveRight size={24} color="gold" />,
+                endIcon: <MoveRight size={24} color="gray" />,
                 text: `Learn."`
             },
         ],
-        color: "text-purple-400",
+        color: "text-orange-500",
     },
 ]
 
