@@ -1,48 +1,71 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
-import News from './News'
-import Menu from './Menu'
-import Banner from './Banner'
 import Link from 'next/link'
-import SmallNavbar from './SmallNavbar'
+import React, { useState } from 'react'
+import { Slant as Hamburger } from 'hamburger-react'
+import News from './News'
 
 export default function Navbar() {
 
+    const [isOpen, setOpen] = useState(false);
+
     return (
+
         <>
 
             {/* Navbar Details */}
-            <div id='navbar' className="w-full h-full flex flex-col">
+            <div id="navbar" className="h-full w-full gap-3 z-[90] p-4 overflow-hidden">
 
-                {/* Importing Banner */}
-                <Banner />
+                <nav className="flex justify-between items-center lg:pr-5 lg:pl-5">
 
-                {/* Importing News */}
-                <News />
+                    {/* Logo */}
+                    <Link id="logo" href={"/"} className="hidden lg:flex">
 
-                <div className="flex pr-5 pl-5 lg:pl-0 lg:pr-0 lg:justify-center items-center overflow-hidden p-2">
-
-                    <Link href={"/"} className="hidden lg:flex">
-                        
-                        {/* Logo */}
                         <Image
                             src={"/Logo/Logo.png"}
                             width={900}
-                            quality={100}
                             height={135}
-                            alt='Dg Vaishnav College'
+                            quality={100}
+                            alt="Dg Vaishnav College"
                         />
+
                     </Link>
 
-                    {/* Small Device Navbar */}
-                    <SmallNavbar />
+                    {/* Logo */}
+                    <Link id="logo" href={"/"} className="flex lg:hidden">
 
-                </div>
+                        <Image
+                            src={"/Logo/Logo2.png"}
+                            width={120}
+                            height={117}
+                            quality={100}
+                            alt="Dg Vaishnav College"
+                        />
 
-                {/* Menu */}
-                <Menu />
+                    </Link>
+
+
+                    {/* Menu Icon */}
+                    <div id="menuIcon" className="flex gap-2 items-center">
+
+                        {!isOpen ?
+                            <>
+                                <h6 onClick={() => setOpen(true)} className="cursor-pointer font-Varela font-semibold">MENU</h6>
+                            </> : <>
+                                <h6 onClick={() => setOpen(false)} className="cursor-pointer font-Varela font-semibold">CLOSE</h6>
+                            </>
+                        }
+
+                        <Hamburger duration={0.8} size={32} rounded toggled={isOpen} toggle={setOpen} />
+
+                    </div>
+
+                </nav>
 
             </div>
+
+            {/* News */}
+            <News />
 
         </>
     )

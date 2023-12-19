@@ -13,7 +13,7 @@ export default function page() {
       {/* Importing The Intro Loader */}
       <Intro />
 
-      <div className="h-screen w-full">
+      <div id="main" className="h-screen w-full">
 
       </div>
 
