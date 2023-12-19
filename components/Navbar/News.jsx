@@ -12,7 +12,7 @@ export default function News() {
     <>
 
       {/* Important News Details */}
-      <div className="w-full flex p-2 bg-gradient-to-r from-yellow-200 to-red-200 animate-fade text-secondaryLight font-Varela font-semibold items-center justify-around">
+      <div className="w-full flex z-10 p-2 bg-gradient-to-r from-yellow-200 to-red-200 animate-fade text-secondaryLight font-Varela font-semibold items-center justify-around">
 
         {/* Important News Label */}
         <h1 className="bg-background text-backgroundForeground rounded-lg p-3 text-xs sm:text-sm leading-none md:text-base animate-fade-in-left">Important News</h1>
