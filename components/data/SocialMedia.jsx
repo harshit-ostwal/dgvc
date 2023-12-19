@@ -18,12 +18,12 @@ const SocialMediaData = [
         href: ""
     },
     {
-        id: 3,
+        id: 4,
         icon: <Youtube size={24} />,
         href: ""
     },
     {
-        id: 4,
+        id: 5,
         icon: <Twitter size={24} />,
         href: ""
     }

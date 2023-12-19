@@ -69,15 +69,15 @@ const IntroData = [
                 text: `The`
             },
             {
-                id: 6,
+                id: 7,
                 text: `World`
             },
             {
-                id: 6,
+                id: 8,
                 text: `Of`
             },
             {
-                id: 7,
+                id: 9,
                 endIcon: <MoveRight size={24} color="gray" />,
                 text: `Wisdom."`
             },
@@ -114,11 +114,11 @@ const IntroData = [
                 text: `Ready`
             },
             {
-                id: 6,
+                id: 7,
                 text: `To`
             },
             {
-                id: 7,
+                id: 8,
                 endIcon: <MoveRight size={24} color="gray" />,
                 text: `Learn."`
             },

@@ -24,7 +24,7 @@ const NewsData = [
         href: ""
     },
     {
-        id: 3,
+        id: 4,
         news: "Notification to SC & ST Alumni",
         date: "04-12-2023",
         icon: <Bell size={24} />,
