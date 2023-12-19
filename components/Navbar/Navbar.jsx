@@ -26,7 +26,7 @@ export default function Navbar() {
                         
                         {/* Logo */}
                         <Image
-                            src={"/Logo/Banner Logo 1.png"}
+                            src={"/Logo/Logo.png"}
                             width={900}
                             quality={100}
                             height={135}
