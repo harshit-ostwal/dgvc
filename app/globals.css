@@ -19,3 +19,8 @@
 ::-webkit-scrollbar {
   width: 0%;
 }
+
+@font-face {
+  font-family: 'Varela_Round';
+  src: url('../fonts/VarelaRound.ttf') format('truetype');
+}

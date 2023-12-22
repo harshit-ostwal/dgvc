@@ -46,7 +46,7 @@ export default function Navbar() {
 
 
                     {/* Menu Icon */}
-                    <div id="menuIcon" className="flex gap-2 items-center">
+                    <div id="menuIcon" className="flex gap-2 items-center text-backgroundForeground">
 
                         {!isOpen ?
                             <>
@@ -56,7 +56,7 @@ export default function Navbar() {
                             </>
                         }
 
-                        <Hamburger duration={0.8} size={32} rounded toggled={isOpen} toggle={setOpen} />
+                        <Hamburger color="#222222" duration={0.8} size={32} rounded toggled={isOpen} toggle={setOpen} />
 
                     </div>
 

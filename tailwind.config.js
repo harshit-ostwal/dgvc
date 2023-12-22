@@ -18,7 +18,7 @@ module.exports = {
         secondaryForeground: 'var(--secondaryForeground)',
       },
       fontFamily: {
-        Varela: ['var(--varela)'],
+        Varela: ['Varela_Round', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
