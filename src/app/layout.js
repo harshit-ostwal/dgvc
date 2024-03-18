@@ -1,13 +1,9 @@
 import Footer from "@/components/footer";
 import "./globals.css";
-import { Poppins } from "next/font/google"
+import { Urbanist } from "next/font/google"
+import Navbar from "@/components/header/navbar";
 
-const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--poppins",
-  preload: true,
-  subsets: ["latin"]
-});
+const urbanist = Urbanist({ subsets: ["latin"], variable: "--Urbanist", weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata = {
   title: "Dg Vaishnav College",
@@ -17,9 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} font-Poppins`}>
+      <body className={` ${urbanist.variable} font-Urbanist`}>
         <div className="w-full h-screen">
-          {/* Header */}
+          {/* Navbar */}
+          <Navbar />
 
           {/* Content */}
           {children}

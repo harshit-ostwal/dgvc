@@ -17,7 +17,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      "Poppins": "var(--poppins)",
+      Urbanist: "var(--Urbanist)",
     },
     extend: {
       keyframes: {
