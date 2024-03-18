@@ -26,9 +26,9 @@ export const SocialMediaIcons = [
 
 function SocialMedia() {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-2">
       {SocialMediaIcons.map((data, index) => (
-        <Link key={index} href={data.iconHref} className="p-3 rounded-full text-white border border-[#c084fc] hover:bg-[#c084fc] hover:border-white transition-all duration-200">
+        <Link key={index} href={data.iconHref} className="p-3 transition-all duration-200 rounded-full background hover:scale-110">
           {data.iconName}
         </Link>
       ))}
