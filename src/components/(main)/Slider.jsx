@@ -4,8 +4,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 import { SliderData } from '@/data/(main)/Slider'
 import Image from 'next/image'
@@ -30,7 +28,7 @@ function Slider() {
             <CarouselContent>
                 {SliderData.map((data, index) => (
                     <CarouselItem key={index}>
-                        <Image src={data.imageUrl} width={1920} className="w-full h-[40vw] lg:h-[35vw]" priority={true} height={640} quality={100} />
+                        <Image src={data.imageUrl} width={1920} className="w-full h-[60vw] lg:h-[40vw]" priority={true} height={640} quality={100} />
                     </CarouselItem>
                 ))}
             </CarouselContent>
